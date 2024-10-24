@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42dp"
+        android:text="Domek w górach" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/obraz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal_700"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/polub"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Polub" />
+
+        <Button
+            android:id="@+id/usun"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="usuń" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_700"
+            android:text="zapisz" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/polubienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="0"
+        android:gravity="right"
+        android:text="0 polubień" />
+
+    <View
+        android:id="@+id/divider"
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Opis" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:text="jghcwdvwecbwefbwkefhwejufhkwjehiwehfiuwefhiuwe" />
+
+</LinearLayout>
